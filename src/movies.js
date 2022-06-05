@@ -89,15 +89,24 @@ function orderAlphabetically(movies) {
 function turnHoursToMinutes(movies) {
 return movies.map((element)=> stringToMinutes(element.duration))
 }
-
+/*
 function stringToMinutes(durationstr) {
-const totalH = 0;
-const horasMin = durationstr.split(' ');
-const horas = 
+const newArr = durationstr.split(' ');
+if (durationstr.length > 1) {
+let totalH = newArr[0].split('h')[0];}
 
-console.log(durationstr.indexOf('min'))
+const horas = 0;
+console.log(totalH)
+;
 }
+
+stringToMinutes()
+
 turnHoursToMinutes(movies)
+
+*/
+
+
 // BONUS - Iteration 8: Best yearly score average - Best yearly score average
 function bestYearAvg() { }
 
